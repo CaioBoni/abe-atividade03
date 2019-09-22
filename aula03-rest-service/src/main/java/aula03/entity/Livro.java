@@ -10,6 +10,7 @@ public class Livro {
 		super();
 		this.id = 1l;
 		this.nome = "Arquitetura";
+		this.comentarios = "coments";
 	}
 	
 	public static Livro comComentario(String comentario) {
